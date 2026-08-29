@@ -17,13 +17,22 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .header {
-  border-bottom: 1px solid #4784ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
   line-height: 142%;
+}
+
+.header,
+.hero {
+  border-bottom: 1px solid #4784ff;
 }
 
 .header-logo {
@@ -33,4 +42,29 @@ body {
 .menu-btn {
   background-color: #2854fe;
   border: none;
+}
+
+.menu-btn:active {
+  transform: scale(90%);
+}
+
+.hero {
+  padding: 3.375rem 2rem;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 2.75rem;
+  line-height: 106%;
+  letter-spacing: -2px;
+  max-width: 311px;
+  margin: 0;
+}
+
+.hero-subtext {
+  font-weight: 400;
+  font-size: 1.0625rem;
+  color: #c1ceff;
+  line-height: 165%;
+  margin-top: 1.5em 0 0 0;
 }
