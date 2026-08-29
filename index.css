@@ -48,6 +48,27 @@ a {
   transform: scale(90%);
 }
 
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+#my-popout-menu {
+  position: absolute;
+  top: -390px;
+  border: none;
+  background-color: #2854fe;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 2rem;
+  line-height: 160%;
+  font-weight: 500;
+}
+
 .hero {
   padding: 3.375rem 2rem;
 }
@@ -58,6 +79,7 @@ a {
   line-height: 106%;
   letter-spacing: -2px;
   max-width: 311px;
+  min-width: 311px;
   margin: 0;
 }
 
