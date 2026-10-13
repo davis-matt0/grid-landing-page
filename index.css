@@ -31,7 +31,8 @@ a {
 }
 
 .header,
-.hero {
+.hero,
+.info-section {
   border-bottom: 1px solid #4784ff;
 }
 
@@ -88,5 +89,14 @@ a {
   font-size: 1.0625rem;
   color: #c1ceff;
   line-height: 165%;
-  margin-top: 1.5em 0 0 0;
+}
+
+.info-section {
+  padding: 0 2em;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10em;
 }
