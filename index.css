@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  font-weight: 500;
   font-family: Inter, sans-serif;
   background-color: #2854fe;
   color: #ffffff;
@@ -56,11 +55,11 @@ a {
 
 #my-popout-menu {
   position: absolute;
-  top: -390px;
+  top: -1356px;
   border: none;
   background-color: #2854fe;
   width: 100%;
-  padding: 1.5rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
@@ -68,6 +67,11 @@ a {
   font-size: 2rem;
   line-height: 160%;
   font-weight: 500;
+}
+
+.main-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(250, 250, 250, 0.5);
 }
 
 .hero {
@@ -84,19 +88,55 @@ a {
   margin: 0;
 }
 
-.hero-subtext {
-  font-weight: 400;
-  font-size: 1.0625rem;
-  color: #c1ceff;
+.hero-subtext,
+.info-body-title {
   line-height: 165%;
+  font-size: 1.0625rem;
+}
+
+.hero-subtext,
+.info-body-desc,
+.footer {
+  color: #c1ceff;
+  font-weight: 400;
 }
 
 .info-section {
-  padding: 0 2em;
+  padding: 0 1.5rem;
 }
 
 .info-header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10em;
+}
+
+.info-stat {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 111%;
+}
+
+.info-body-title {
+  font-weight: 500;
+  margin: 0;
+}
+
+.info-body-desc {
+  margin: 0 0 1.5rem 0;
+}
+
+.info-body-desc,
+.footer {
+  font-size: 0.875rem;
+  line-height: 142%;
+}
+
+.footer {
+  padding: 1.5rem;
+}
+
+.copyright,
+.register {
+  margin: 0;
 }
