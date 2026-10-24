@@ -44,6 +44,7 @@ a {
 .menu-btn {
   background-color: #2854fe;
   border: none;
+  anchor-name: --menu-btn;
 }
 
 .menu-btn:active {
@@ -57,24 +58,14 @@ a {
 
 #my-popout-menu {
   position: absolute;
-  top: -1356px;
+  top: -1330px;
   border: none;
   background-color: #2854fe;
   width: 100%;
-  padding: 2rem 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
+  position-anchor: --menu-btn;
 }
-
-/* .body-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  z-index: 5;
-} */
 
 #my-popout-menu::backdrop {
   background: rgba(0, 0, 0, 0.5);
